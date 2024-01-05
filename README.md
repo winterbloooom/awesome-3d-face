@@ -9,9 +9,9 @@
     - [Leaderboards, Benchmarks](#leaderboard-benchmarks)
     - [Datasets](#datasets)
   - [Face Animation with Audio (Talking Head)](#face-animation-with-audio--talking-head)
-    - [Papers](#papers)
-    - [Leaderboards, Benchmarks](#leaderboard-benchmarks)
-    - [Datasets](#datasets)
+    - [Papers](#papers-1)
+    - [Leaderboards, Benchmarks](#leaderboard-benchmarks-1)
+    - [Datasets](#datasets-1)
 </details>
 
 <details>
