@@ -227,6 +227,12 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
 
 - **[REALY](https://realy3dface.com/)** (2022 ECCV)<br>
 
+### 📦 Datasets
+
+* **[FaceWarehouse](https://ieeexplore.ieee.org/document/6654137)** (2013 TVCG) [[Code](http://kunzhou.net/zjugaps/facewarehouse/)]<br>
+**FaceWarehouse: A 3D Facial Expression Database for Visual Computing**<br>
+*Chen Cao, Yanlin Weng, Shun Zhou, Yiying Tong, Kun Zhou*<br>
+
 
 ## Face Animation with Audio (Talking Head)
 ### 📑 Papers
