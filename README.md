@@ -7,11 +7,11 @@
   - [3D Face Reconstruction](#3d-face-reconstruction)
     - 📑 [Papers](#-papers)
     - 🫥 [Facial/Head Models](#-facialhead-models)
-    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks)
+    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks)
     - 📦 [Datasets](#-datasets)
-  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio--talking-head)
+  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio-talking-head)
     - 📑 [Papers](#-papers-1)
-    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks-1)
+    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks-1)
     - 📦 [Datasets](#-datasets-1)
 </details>
 
@@ -182,11 +182,11 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
   - [3D Face Reconstruction](#3d-face-reconstruction)
     - 📑 [Papers](#-papers)
     - 🫥 [Facial/Head Models](#-facialhead-models)
-    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks)
+    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks)
     - 📦 [Datasets](#-datasets)
-  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio--talking-head)
+  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio-talking-head)
     - 📑 [Papers](#-papers-1)
-    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks-1)
+    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks-1)
     - 📦 [Datasets](#-datasets-1)
 </details>
 
@@ -213,11 +213,11 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
   - [3D Face Reconstruction](#3d-face-reconstruction)
     - 📑 [Papers](#-papers)
     - 🫥 [Facial/Head Models](#-facialhead-models)
-    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks)
+    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks)
     - 📦 [Datasets](#-datasets)
-  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio--talking-head)
+  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio-talking-head)
     - 📑 [Papers](#-papers-1)
-    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks-1)
+    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks-1)
     - 📦 [Datasets](#-datasets-1)
 </details>
 
@@ -236,11 +236,11 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
   - [3D Face Reconstruction](#3d-face-reconstruction)
     - 📑 [Papers](#-papers)
     - 🫥 [Facial/Head Models](#-facialhead-models)
-    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks)
+    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks)
     - 📦 [Datasets](#-datasets)
-  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio--talking-head)
+  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio-talking-head)
     - 📑 [Papers](#-papers-1)
-    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks-1)
+    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks-1)
     - 📦 [Datasets](#-datasets-1)
 </details>
 
