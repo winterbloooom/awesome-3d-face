@@ -1,17 +1,18 @@
 <h1 align="center">Awesome 3D Face Reconstruction (Kor.)</h1>
+<p align="center"><a href="https://github.com/winterbloooom/awesome-3d-face-reconstruction"><img src="https://awesome.re/badge.svg"></a></p>
 
 <details>
   <summary>🪄 <b>Table of Contents</b></summary>
 
   - [3D Face Reconstruction](#3d-face-reconstruction)
-    - [Papers](#papers)
-    - [Facial/Head Models](#facialhead-models)
-    - [Leaderboards, Benchmarks](#leaderboard-benchmarks)
-    - [Datasets](#datasets)
+    - 📑 [Papers](#-papers)
+    - 🫥 [Facial/Head Models](#-facialhead-models)
+    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks)
+    - 📦 [Datasets](#-datasets)
   - [Face Animation with Audio (Talking Head)](#face-animation-with-audio--talking-head)
-    - [Papers](#papers-1)
-    - [Leaderboards, Benchmarks](#leaderboard-benchmarks-1)
-    - [Datasets](#datasets-1)
+    - 📑 [Papers](#-papers-1)
+    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks-1)
+    - 📦 [Datasets](#-datasets-1)
 </details>
 
 <details>
@@ -34,7 +35,7 @@
 > - 중요한 논문은 ✨ 표시했습니다.
 
 ## 3D Face Reconstruction
-### Papers
+### 📑 Papers
 
 - **[AlbedoGAN](https://aashishrai3799.github.io/Towards-Realistic-Generative-3D-Face-Models/)** (2024 WACV) [[Code](https://github.com/aashishrai3799/Towards-Realistic-Generative-3D-Face-Models/)]<br>
 **Towards Realistic Generative 3D Face Models**<br>
@@ -174,7 +175,20 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
 사람의 3D 모델링 방법으로, shape & texture를 vector space에서 표현하며, bases의 linear combination으로 표현 가능. *(논문까지 읽을 필요는 없음)*
 
 
-### Facial/Head Models
+### 🫥 Facial/Head Models
+<details>
+  <summary>🪄 <b>Table of Contents</b></summary>
+
+  - [3D Face Reconstruction](#3d-face-reconstruction)
+    - 📑 [Papers](#-papers)
+    - 🫥 [Facial/Head Models](#-facialhead-models)
+    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks)
+    - 📦 [Datasets](#-datasets)
+  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio--talking-head)
+    - 📑 [Papers](#-papers-1)
+    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks-1)
+    - 📦 [Datasets](#-datasets-1)
+</details>
 
 - **[FLAME](https://flame.is.tue.mpg.de/)** (2017 SIGGRAPH) ✨ [[Code](https://github.com/TimoBolkart/FLAME-Universe)]<br>
 **Learning a model of facial shape and expression from 4D scans**<br>
@@ -192,7 +206,21 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
  (*논문까지 읽을 필요는 없음*)
 
 
-### Leaderboards, Benchmarks
+### 🎖️ Leaderboards, Benchmarks
+<details>
+  <summary>🪄 <b>Table of Contents</b></summary>
+
+  - [3D Face Reconstruction](#3d-face-reconstruction)
+    - 📑 [Papers](#-papers)
+    - 🫥 [Facial/Head Models](#-facialhead-models)
+    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks)
+    - 📦 [Datasets](#-datasets)
+  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio--talking-head)
+    - 📑 [Papers](#-papers-1)
+    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks-1)
+    - 📦 [Datasets](#-datasets-1)
+</details>
+
 - **[NoW](https://now.is.tue.mpg.de/index.html)** (2019 CVPR) ✨<br>
 사람 얼굴의 scan (GT)과 모델 결과의 mesh (prediction) 간의 거리를 측정해 median(↓), mean(↓), std(↓)를 비교
 
@@ -201,7 +229,20 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
 
 
 ## Face Animation with Audio (Talking Head)
-### Papers
+### 📑 Papers
+<details>
+  <summary>🪄 <b>Table of Contents</b></summary>
+
+  - [3D Face Reconstruction](#3d-face-reconstruction)
+    - 📑 [Papers](#-papers)
+    - 🫥 [Facial/Head Models](#-facialhead-models)
+    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks)
+    - 📦 [Datasets](#-datasets)
+  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio--talking-head)
+    - 📑 [Papers](#-papers-1)
+    - 🎖️ [Leaderboards, Benchmarks](#-leaderboards-benchmarks-1)
+    - 📦 [Datasets](#-datasets-1)
+</details>
 
 - **[Speech4Mesh](https://openaccess.thecvf.com//content/ICCV2023/papers/He_Speech4Mesh_Speech-Assisted_Monocular_3D_Facial_Reconstruction_for_Speech-Driven_3D_Facial_ICCV_2023_paper.pdf)** (2023 ICCV)<br>
 **Speech4Mesh: Speech-Assisted Monocular 3D Facial Reconstruction for Speech-Driven 3D Facial Animation**<br>
