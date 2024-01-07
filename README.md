@@ -132,11 +132,13 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
 - **[RingNet, NoW](https://arxiv.org/pdf/1905.06817.pdf)** (2019 CVPR) ✨ [[Code](https://github.com/soubhiksanyal/RingNet)]<br>
 **Learning to Regress 3D Face Shape and Expression from an Image without 3D Supervision**<br>
 *Soubhik Sanyal, Timo Bolkart, Haiwen Feng and Michael J. Black*<br>
+같은 사람의 사진 간에는 shape consistency를 높이고, 서로 다른 사람의 사진 간에는 shape inconsistency를 낮추도록 학습. 현재 가장 흔히 사용되는 NoW benchmark를 제시함.
 
 
-- **[Deep3DFaceRecon](https://arxiv.org/pdf/1903.08527.pdf)** (2019 CVPRw) [[Code](https://github.com/microsoft/Deep3DFaceReconstruction)]<br>
+- **[Deep3DFaceRecon](https://arxiv.org/abs/1903.08527)** (2019 CVPRw) [[Code](https://github.com/microsoft/Deep3DFaceReconstruction)]<br>
 **Accurate 3D Face Reconstruction with Weakly-Supervised Learing: From Single Image to Image Set**<br>
 *Yu Deng, Jiaolong Yang, Sicheng Xu, Dong Chen, Yunde Jia, Xin Tong*<br>
+GT 없이도 landmark나 facial mask 등으로 self-supervised learning 수행. Confidence measurement subnetwork를 추가로 두어 multi-image reconstruction을 학습.
 
 
 - **[PRNet](https://arxiv.org/pdf/1803.07835.pdf)** (2018 ECCV) [[Code](https://github.com/YadiraF/PRNet)]<br>
@@ -169,12 +171,6 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
 *Anh Tuấn Trần, Tal Hassner, Iacopo Masi, Gerard Medioni*<br>
 
 
-- **[3DMM](https://dl.acm.org/doi/10.1145/311535.311556)** (1999 SIGGRAPH) ✨<br>
-**A morphable model for the synthesis of 3d faces**<br>
-*Volker Blanz, Thomas Vetter*<br>
-사람의 3D 모델링 방법으로, shape & texture를 vector space에서 표현하며, bases의 linear combination으로 표현 가능. *(논문까지 읽을 필요는 없음)*
-
-
 ### 🫥 Facial/Head Models
 <details>
   <summary>🪄 <b>Table of Contents</b></summary>
@@ -195,15 +191,23 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
 *Tianye Li, Timo Bolkart, Michael J. Black, Hao Li, Javier Romero*<br>
 3DMM 식 facial model. Shape, expression, pose 파라미터로 얼굴을 표현함. (*논문까지 읽을 필요는 없음*)
 
+
 - **[BFM (Basel Face Model)](https://ieeexplore.ieee.org/document/5279762)** (2009 AVSS) ✨ [[Code](https://shapemodelling.cs.unibas.ch/web/)]<br>
 **A 3D Face Model for Pose and Illumination Invariant Face Recognition**<br>
 *Pascal Paysan, Reinhard Knothe, Brian Amberg, Sami Romdhani, Thomas Vetter*<br>
 3DMM 식 facial model. FLAME 이전 및 FLAME과 함께 자주 사용되는 모델. (*논문까지 읽을 필요는 없음*)
 
+
 - **[SCAPE](http://robots.stanford.edu/papers/anguelov.shapecomp.pdf)** (2005 SIGGRAPH) ✨<br>
 **SCAPE: shape completion and animation of people**<br>
 *Dragomir Anguelov, Praveen Srinivasan, Daphne Koller, Sebastian Thrun, Jim Rodgers, James Davis*<br>
  (*논문까지 읽을 필요는 없음*)
+
+
+- **[3DMM](https://dl.acm.org/doi/10.1145/311535.311556)** (1999 SIGGRAPH) ✨<br>
+**A morphable model for the synthesis of 3d faces**<br>
+*Volker Blanz, Thomas Vetter*<br>
+사람의 3D 모델링 방법으로, shape & texture를 vector space에서 표현하며, bases의 linear combination으로 표현 가능. *(논문까지 읽을 필요는 없음)*
 
 
 ### 🎖️ Leaderboards, Benchmarks
@@ -227,9 +231,24 @@ Detail을 displacement map으로 예측해 coarse shape에 합쳐 reconstruction
 
 - **[REALY](https://realy3dface.com/)** (2022 ECCV)<br>
 
+
 ### 📦 Datasets
 
-* **[FaceWarehouse](https://ieeexplore.ieee.org/document/6654137)** (2013 TVCG) [[Code](http://kunzhou.net/zjugaps/facewarehouse/)]<br>
+* **[MICC]()** () [[Link]()]<br>
+3D face scans & Videos
+
+* **[300W]()** () [[Link]()]<br>
+
+* **[FRGC](https://cvrl.nd.edu/projects/data/#face-recognition-grand-challenge-frgc-v20-data-collection)** (2005 CVPR) [[Link]()]<br>
+**Overview of the face recognition grand challenge**
+
+* **[]()** () [[Link]()]<br>
+
+* **[]()** () [[Link]()]<br>
+
+* **[]()** () [[Link]()]<br>
+
+* **[FaceWarehouse](https://ieeexplore.ieee.org/document/6654137)** (2013 TVCG) [[Link](http://kunzhou.net/zjugaps/facewarehouse/)]<br>
 **FaceWarehouse: A 3D Facial Expression Database for Visual Computing**<br>
 *Chen Cao, Yanlin Weng, Shun Zhou, Yiying Tong, Kun Zhou*<br>
 
