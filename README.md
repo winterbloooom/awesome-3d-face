@@ -28,6 +28,7 @@
 |FG         |IEEE International Conference on Automatic Face & Gesture Recognition|
 |TVCG       |IEEE Transactions on Visualization and Computer Graphics|
 |TAG        |IEEE Transactions on Affective Computing|
+|PR          | Pattern Recognition |
 </details>
 
 > [!NOTE]
@@ -226,10 +227,18 @@ GT 없이도 landmark나 facial mask 등으로 self-supervised learning 수행. 
 </details>
 
 - **[NoW](https://now.is.tue.mpg.de/index.html)** (2019 CVPR) ✨<br>
-사람 얼굴의 scan (GT)과 모델 결과의 mesh (prediction) 간의 거리를 측정해 median(↓), mean(↓), std(↓)를 비교
+사람 얼굴의 scan (GT)과 모델 결과의 mesh (prediction) 간의 거리를 측정해 median(↓), mean(↓), std(↓)를 비교. Expression, occlusion, varing views 상황을 구분하여 데이터셋을 구성함.
 
 
 - **[REALY](https://realy3dface.com/)** (2022 ECCV)<br>
+
+
+- **[Feng et al.(2018)]()** () ✨<br>
+Scan (GT)과 recontructed mesh (prediction)를 rigid align 한 뒤, scan의 vertices로부터 가장 가까운 recontructed mesh (prediction) 상의 거리를 측정. (NoW와 유사)
+
+
+- **[Striling]()** ()<br>
+
 
 
 ### 📦 Datasets
@@ -317,3 +326,14 @@ Speaker-dependent였던 기존 연구와는 다르게, 오디오가 주어졌을
 **Audio-driven facial animation by joint end-to-end learning of pose and emotion**<br>
 *Tero Karras, Timo Aila, Samuli Laine, Antti Herva, Jaakko Lehtinen*<br>
 
+
+### 📦 Datasets
+
+- **[VOCA, VOCASET](https://voca.is.tue.mpg.de/)** (2019 CVPR) ✨ [[Link](https://voca.is.tue.mpg.de/)]<br>
+**Capture, Learning, and Synthesis of 3D Speaking Styles**<br>
+*Daniel Cudeiro, Timo Bolkart, Cassidy Laidlaw, Anurag Ranjan, Michael J. Black*<br>
+Speaker-dependent였던 기존 연구와는 다르게, 오디오가 주어졌을 때 speaker-independent인 facial animation을 생성함. Speech가 있는 4D face scans로 이루어진 VOCASET 데이터셋 구축.
+
+* **[BIWI](https://link.springer.com/chapter/10.1007/978-3-642-23123-0_11)** (2011 PR) [[Link](https://www.kaggle.com/datasets/kmader/biwi-kinect-head-pose-database/data)]<br>
+**Real Time Head Pose Estimation from Consumer Depth Cameras**<br>
+*Gabriele Fanelli, Thibaut Weise, Juergen Gall, Luc Van Gool*<br>
