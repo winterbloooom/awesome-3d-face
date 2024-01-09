@@ -20,15 +20,19 @@
 
 | Abbr. | Full name |
 |-------|-----------|
-|AVSS       |International Conference on Advanced Video and Signal Based Surveillance|
+|AVSS       | International Conference on Advanced Video and Signal Based Surveillance |
 |CVPR       ||
-|ICCV       ||
+|ICCV       | International Conference on Computer Vision |
 |ToG        ||
 |SIGGRAPH   ||
-|FG         |IEEE International Conference on Automatic Face & Gesture Recognition|
-|TVCG       |IEEE Transactions on Visualization and Computer Graphics|
-|TAG        |IEEE Transactions on Affective Computing|
-|PR          | Pattern Recognition |
+|FG         | IEEE International Conference on Automatic Face & Gesture Recognition|
+|TVCG       | IEEE Transactions on Visualization and Computer Graphics|
+|TAG        | IEEE Transactions on Affective Computing|
+|PR         | Pattern Recognition |
+|TMM        | IEEE Transactions on Multimedia |
+|MM         | ACM Multimedia Conference |
+|TIP        | IEEE Transactions on Image Processing |
+|J-HGBU     | Joint ACM Workshop on Human Gesture and Behavior Understanding |
 </details>
 
 > [!NOTE]
@@ -55,7 +59,7 @@ FLAME의 각 파라미터를 decoupling하고자, ViT에 이미지 토큰과 더
 Detail을 static detail과 dynamic detail로 나눔. Synthetic dataset을 사용하여 학습.
 
 
-- **[FOCUS](https://arxiv.org/pdf/2106.09614.pdf)** (2023 CVPR) [[Code](https://github.com/unibas-gravis/Occlusion-Robust-MoFA)]<br>
+- **[FOCUS](https://arxiv.org/abs/2106.09614)** (2023 CVPR) [[Code](https://github.com/unibas-gravis/Occlusion-Robust-MoFA)]<br>
 **Robust Model-based Face Reconstruction through Weakly-Supervised Outlier Segmentation**<br>
 *Chunlu Li, Andreas Morel-Forster, Thomas Vetter, Bernhard Egger, and Adam Kortylewski*<br>
 Reconstruction과 outlier segmentation을 동시에 수행하여 outlier에도 robust한 결과를 얻고자 함.
@@ -187,6 +191,11 @@ GT 없이도 landmark나 facial mask 등으로 self-supervised learning 수행. 
     - 📦 [Datasets](#-datasets-1)
 </details>
 
+- **[LYHM](https://link.springer.com/article/10.1007/s11263-019-01260-7)** (2020 ICCV) [[Link](https://www-users.york.ac.uk/~np7/research/LYHM/)]<br>
+**Statistical Modeling of Craniofacial Shape and Texture**<br>
+_Hang Dai, Nick Pears, William Smith, Christian Duncan_<br>
+(*논문까지 읽을 필요는 없음*)
+
 - **[FLAME](https://flame.is.tue.mpg.de/)** (2017 SIGGRAPH) ✨ [[Code](https://github.com/TimoBolkart/FLAME-Universe)]<br>
 **Learning a model of facial shape and expression from 4D scans**<br>
 *Tianye Li, Timo Bolkart, Michael J. Black, Hao Li, Javier Romero*<br>
@@ -237,29 +246,44 @@ GT 없이도 landmark나 facial mask 등으로 self-supervised learning 수행. 
 Scan (GT)과 recontructed mesh (prediction)를 rigid align 한 뒤, scan의 vertices로부터 가장 가까운 recontructed mesh (prediction) 상의 거리를 측정. (NoW와 유사)
 
 
-- **[Striling]()** ()<br>
+- **[Stirling](https://pics.stir.ac.uk/ESRC/)** ()<br>
 
 
 
 ### 📦 Datasets
 
-* **[MICC]()** () [[Link]()]<br>
-3D face scans & Videos
+- **[MICA Dataset](https://zielon.github.io/mica/)** (2022 ECCV) [[Link](https://github.com/Zielon/MICA/tree/master/datasets)]<br>
+**Towards Metrical Reconstruction of Human Faces**<br>
+*Wojciech Zielonka, Timo Balkart, Justus Thies*<br>
+MICA에서 여러 데이터셋을 모아 FLAME으로 fitting함.
+
+- **[LYHM, Headspace Dataset](https://link.springer.com/article/10.1007/s11263-019-01260-7)** (2020 ICCV) [[Link](https://www-users.york.ac.uk/~np7/research/LYHM/)]<br>
+**Statistical Modeling of Craniofacial Shape and Texture**<br>
+_Hang Dai, Nick Pears, William Smith, Christian Duncan_<br>
+LYHM head model 기반으로 만들어진 데이터셋.
 
 * **[300W]()** () [[Link]()]<br>
 
 * **[FRGC](https://cvrl.nd.edu/projects/data/#face-recognition-grand-challenge-frgc-v20-data-collection)** (2005 CVPR) [[Link]()]<br>
 **Overview of the face recognition grand challenge**
 
-* **[]()** () [[Link]()]<br>
+- **[Stirling](https://pics.stir.ac.uk/ESRC/)** (2018 FG)<br>
 
-* **[]()** () [[Link]()]<br>
+- **[D3DFACS](https://www.cs.bath.ac.uk/~dpc/D3DFACS/ICCV_final_2011.pdf)** (2011 ICCV) [[Link](https://www.cs.bath.ac.uk/~dpc/D3DFACS/)]<br>
+**A FACS Valid 3D Dynamic Action Unit Database with Applications to 3D Dynamic Morphable Facial Modeling**<br>
+_Darren Cosker, Eva Krumhuber, Adrian Hilton_<br>
 
-* **[]()** () [[Link]()]<br>
+- **[Florence 2D/3D](https://dl.acm.org/doi/abs/10.1145/2072572.2072597)** (2011 J-HGBU) [[Link](https://www.micc.unifi.it/resources/datasets/florence-3d-faces/)]<br>
+**The Florence 2D/3D Hybrid Face Dataset**<br>
+_Andrew D. Bagdanov, Alberto Del Bimbo, Iacopo Masi_<br>
 
 * **[FaceWarehouse](https://ieeexplore.ieee.org/document/6654137)** (2013 TVCG) [[Link](http://kunzhou.net/zjugaps/facewarehouse/)]<br>
 **FaceWarehouse: A 3D Facial Expression Database for Visual Computing**<br>
 *Chen Cao, Yanlin Weng, Shun Zhou, Yiying Tong, Kun Zhou*<br>
+
+* **[AR database](https://portalrecerca.uab.cat/en/publications/the-ar-face-database-cvc-technical-report-24)** (1998) [[Link]()]<br>
+**The ar face database**
+_A.M. Martinez and R. Benavente_<br>
 
 
 ## Face Animation with Audio (Talking Head)
@@ -288,7 +312,7 @@ Scan (GT)과 recontructed mesh (prediction)를 rigid align 한 뒤, scan의 vert
 *Ziqiao Peng, Haoyu Wu, Zhenbo Song, Hao Xu, Xiangyu Zhu, Jun He, Hongyan Liu, Zhaoxin Fan*<br>
 
 
-- **[SPECTRE](https://filby89.github.io/spectre/)** (2023 CVPR) [[Code](https://github.com/filby89/spectre)]<br>
+- **[SPECTRE](https://filby89.github.io/spectre/)** (2023 CVPR) ✨ [[Code](https://github.com/filby89/spectre)]<br>
 **Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos**<br>
 *Panagiotis P. Filntisis, George Retsinas, Foivos Paraperas-Papantoniou, Athanasios Katsamanis, Anastasios Roussos, Petros Maragos*<br>
 
@@ -310,7 +334,7 @@ Lip shape을 더 정확하게 만들기 위해, 예측 결과 생성된 facial a
 Latent space에서 audio-correlated와 uncorrelated information을 구분함. Lip shape와 upper face의 더 정확한 animation을 생성하고자 함.
 
 
-- **[FaceFormer](https://evelynfan.github.io/audio2face/)** (2022 CVPR) [[Code](https://github.com/EvelynFan/FaceFormer)]<br>
+- **[FaceFormer](https://evelynfan.github.io/audio2face/)** (2022 CVPR) ✨ [[Code](https://github.com/EvelynFan/FaceFormer)]<br>
 **FaceFormer: Speech-Driven 3D Face Animation with Transformers**<br>
 *Yingrou Fan, Zhaojiang Lin, Jun Saito, Wengping Wang, Taku Komura*<br>
 Transformer-based 구조에 오디오를 context로 입력받아 autoregressive하게 face mesh를 생성.
@@ -327,13 +351,42 @@ Speaker-dependent였던 기존 연구와는 다르게, 오디오가 주어졌을
 *Tero Karras, Timo Aila, Samuli Laine, Antti Herva, Jaakko Lehtinen*<br>
 
 
+- **[JALI](https://dl.acm.org/doi/abs/10.1145/2897824.2925984)** (2016 ToG)<br>
+**JALI: an animator-centric viseme model for expressive lip synchronization**<br>
+*Pif Edwards, Chris Landreth, Eugene Fiume, Karan Singh*<br>
+
+
 ### 📦 Datasets
+
+* **[CelebV-HQ](https://celebv-hq.github.io/)** (2022 ECCV) ✨ [[Link](https://github.com/CelebV-HQ/CelebV-HQ/)]<br>
+**CelebVHQ: A large-scale video facial attributes dataset**<br>
+_Hao Zhu, Wayne Wu, Wentao Zhu, Liming Jiang, Siwei Tang, Li Zhang, Ziwei Liu, and Chen Change Loy_<br>
+YouTube에서 수집된 비디오 데이터셋
+
+
+* **[VoxCeleb2](https://arxiv.org/abs/1806.05622)** (2018 INTERSPEECH) ✨ [[Link](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html)]<br>
+**Voxceleb2: Deep speaker recognition**<br>
+Joon Son Chung, Arsha Nagrani, Andrew Zisserman<br>
+YouTube에서 수집된 비디오 데이터셋
+
+
+- **[MEAD](https://wywu.github.io/projects/MEAD/support/MEAD.pdf)** (2019 ECCV) ✨ [[Link](https://github.com/uniBruce/Mead)]<br>
+**Mead: A large-scale audio-visual dataset for emotional talking-face generation**<br>
+_Kaisiyuan Wang, Qianyi Wu, Linsen Song, Zhuoqian Yang, Wayne Wu, Chen Qian, Ran He, Yu Qiao, Chen Change Loy_<br>
+스튜디오에서 촬영된 비디오 데이터셋. Multi-view이며, emotion과 그 intensity를 다양하게 촬영함.
+
 
 - **[VOCA, VOCASET](https://voca.is.tue.mpg.de/)** (2019 CVPR) ✨ [[Link](https://voca.is.tue.mpg.de/)]<br>
 **Capture, Learning, and Synthesis of 3D Speaking Styles**<br>
 *Daniel Cudeiro, Timo Bolkart, Cassidy Laidlaw, Anurag Ranjan, Michael J. Black*<br>
 Speaker-dependent였던 기존 연구와는 다르게, 오디오가 주어졌을 때 speaker-independent인 facial animation을 생성함. Speech가 있는 4D face scans로 이루어진 VOCASET 데이터셋 구축.
 
-* **[BIWI](https://link.springer.com/chapter/10.1007/978-3-642-23123-0_11)** (2011 PR) [[Link](https://www.kaggle.com/datasets/kmader/biwi-kinect-head-pose-database/data)]<br>
-**Real Time Head Pose Estimation from Consumer Depth Cameras**<br>
+
+* **[CoMA](https://coma.is.tue.mpg.de/)** (2018 ECCV)<br>
+**Generating 3D faces using Convolutional Mesh Autoencoders**<br>
+_Anurag Ranjan, Timo Bolkart, Soubhik Sanyal, Michael J. Black_<br>
+
+
+* **[BIWI](https://ieeexplore.ieee.org/document/5571821)** (2010 TMM) [[Link](https://www.kaggle.com/datasets/kmader/biwi-kinect-head-pose-database/data)]<br>
+**A 3-D Audio-Visual Corpus of Affective Communication**<br>
 *Gabriele Fanelli, Thibaut Weise, Juergen Gall, Luc Van Gool*<br>
