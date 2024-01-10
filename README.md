@@ -13,6 +13,7 @@
     - 📑 [Papers](#-papers-1)
     - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks-1)
     - 📦 [Datasets](#-datasets-1)
+  - [Other Lists Related with Face](#other-lists-related-with-face)
 </details>
 
 <details>
@@ -21,18 +22,17 @@
 | Abbr. | Full name |
 |-------|-----------|
 |AVSS       | International Conference on Advanced Video and Signal Based Surveillance |
-|CVPR       ||
-|ICCV       | International Conference on Computer Vision |
-|ToG        ||
-|SIGGRAPH   ||
-|FG         | IEEE International Conference on Automatic Face & Gesture Recognition|
-|TVCG       | IEEE Transactions on Visualization and Computer Graphics|
-|TAG        | IEEE Transactions on Affective Computing|
-|PR         | Pattern Recognition |
-|TMM        | IEEE Transactions on Multimedia |
-|MM         | ACM Multimedia Conference |
-|TIP        | IEEE Transactions on Image Processing |
+|CVPR       | IEEE Conference on Computer Vision and Pattern Recognition |
+|FG         | IEEE International Conference on Automatic Face & Gesture Recognition |
+|ICCV       | IEEE International Conference on Computer Vision |
 |J-HGBU     | Joint ACM Workshop on Human Gesture and Behavior Understanding |
+|MM         | ACM Multimedia Conference |
+|PR         | Pattern Recognition |
+|TAG        | IEEE Transactions on Affective Computing|
+|TIP        | IEEE Transactions on Image Processing |
+|ToG        | ACM Transactions on Graphics |
+|TMM        | IEEE Transactions on Multimedia |
+|TVCG       | IEEE Transactions on Visualization and Computer Graphics|
 </details>
 
 > [!NOTE]
@@ -177,19 +177,6 @@ GT 없이도 landmark나 facial mask 등으로 self-supervised learning 수행. 
 
 
 ### 🫥 Facial/Head Models
-<details>
-  <summary>🪄 <b>Table of Contents</b></summary>
-
-  - [3D Face Reconstruction](#3d-face-reconstruction)
-    - 📑 [Papers](#-papers)
-    - 🫥 [Facial/Head Models](#-facialhead-models)
-    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks)
-    - 📦 [Datasets](#-datasets)
-  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio-talking-head)
-    - 📑 [Papers](#-papers-1)
-    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks-1)
-    - 📦 [Datasets](#-datasets-1)
-</details>
 
 - **[LYHM](https://link.springer.com/article/10.1007/s11263-019-01260-7)** (2020 ICCV) [[Link](https://www-users.york.ac.uk/~np7/research/LYHM/)]<br>
 **Statistical Modeling of Craniofacial Shape and Texture**<br>
@@ -221,33 +208,16 @@ _Hang Dai, Nick Pears, William Smith, Christian Duncan_<br>
 
 
 ### 🎖️ Leaderboards, Benchmarks
-<details>
-  <summary>🪄 <b>Table of Contents</b></summary>
-
-  - [3D Face Reconstruction](#3d-face-reconstruction)
-    - 📑 [Papers](#-papers)
-    - 🫥 [Facial/Head Models](#-facialhead-models)
-    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks)
-    - 📦 [Datasets](#-datasets)
-  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio-talking-head)
-    - 📑 [Papers](#-papers-1)
-    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks-1)
-    - 📦 [Datasets](#-datasets-1)
-</details>
 
 - **[NoW](https://now.is.tue.mpg.de/index.html)** (2019 CVPR) ✨<br>
 사람 얼굴의 scan (GT)과 모델 결과의 mesh (prediction) 간의 거리를 측정해 median(↓), mean(↓), std(↓)를 비교. Expression, occlusion, varing views 상황을 구분하여 데이터셋을 구성함.
 
-
 - **[REALY](https://realy3dface.com/)** (2022 ECCV)<br>
-
 
 - **[Feng et al.(2018)]()** () ✨<br>
 Scan (GT)과 recontructed mesh (prediction)를 rigid align 한 뒤, scan의 vertices로부터 가장 가까운 recontructed mesh (prediction) 상의 거리를 측정. (NoW와 유사)
 
-
 - **[Stirling](https://pics.stir.ac.uk/ESRC/)** ()<br>
-
 
 
 ### 📦 Datasets
@@ -262,9 +232,7 @@ MICA에서 여러 데이터셋을 모아 FLAME으로 fitting함.
 _Hang Dai, Nick Pears, William Smith, Christian Duncan_<br>
 LYHM head model 기반으로 만들어진 데이터셋.
 
-* **[300W]()** () [[Link]()]<br>
-
-* **[FRGC](https://cvrl.nd.edu/projects/data/#face-recognition-grand-challenge-frgc-v20-data-collection)** (2005 CVPR) [[Link]()]<br>
+- **[FRGC](https://cvrl.nd.edu/projects/data/#face-recognition-grand-challenge-frgc-v20-data-collection)** (2005 CVPR) [[Link]()]<br>
 **Overview of the face recognition grand challenge**
 
 - **[Stirling](https://pics.stir.ac.uk/ESRC/)** (2018 FG)<br>
@@ -277,30 +245,17 @@ _Darren Cosker, Eva Krumhuber, Adrian Hilton_<br>
 **The Florence 2D/3D Hybrid Face Dataset**<br>
 _Andrew D. Bagdanov, Alberto Del Bimbo, Iacopo Masi_<br>
 
-* **[FaceWarehouse](https://ieeexplore.ieee.org/document/6654137)** (2013 TVCG) [[Link](http://kunzhou.net/zjugaps/facewarehouse/)]<br>
+- **[FaceWarehouse](https://ieeexplore.ieee.org/document/6654137)** (2013 TVCG) [[Link](http://kunzhou.net/zjugaps/facewarehouse/)]<br>
 **FaceWarehouse: A 3D Facial Expression Database for Visual Computing**<br>
 *Chen Cao, Yanlin Weng, Shun Zhou, Yiying Tong, Kun Zhou*<br>
 
-* **[AR database](https://portalrecerca.uab.cat/en/publications/the-ar-face-database-cvc-technical-report-24)** (1998) [[Link]()]<br>
+- **[AR database](https://portalrecerca.uab.cat/en/publications/the-ar-face-database-cvc-technical-report-24)** (1998) [[Link]()]<br>
 **The ar face database**
 _A.M. Martinez and R. Benavente_<br>
 
 
 ## Face Animation with Audio (Talking Head)
 ### 📑 Papers
-<details>
-  <summary>🪄 <b>Table of Contents</b></summary>
-
-  - [3D Face Reconstruction](#3d-face-reconstruction)
-    - 📑 [Papers](#-papers)
-    - 🫥 [Facial/Head Models](#-facialhead-models)
-    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks)
-    - 📦 [Datasets](#-datasets)
-  - [Face Animation with Audio (Talking Head)](#face-animation-with-audio-talking-head)
-    - 📑 [Papers](#-papers-1)
-    - 🎖️ [Leaderboards, Benchmarks](#%EF%B8%8F-leaderboards-benchmarks-1)
-    - 📦 [Datasets](#-datasets-1)
-</details>
 
 - **[Speech4Mesh](https://openaccess.thecvf.com//content/ICCV2023/papers/He_Speech4Mesh_Speech-Assisted_Monocular_3D_Facial_Reconstruction_for_Speech-Driven_3D_Facial_ICCV_2023_paper.pdf)** (2023 ICCV)<br>
 **Speech4Mesh: Speech-Assisted Monocular 3D Facial Reconstruction for Speech-Driven 3D Facial Animation**<br>
@@ -358,13 +313,13 @@ Speaker-dependent였던 기존 연구와는 다르게, 오디오가 주어졌을
 
 ### 📦 Datasets
 
-* **[CelebV-HQ](https://celebv-hq.github.io/)** (2022 ECCV) ✨ [[Link](https://github.com/CelebV-HQ/CelebV-HQ/)]<br>
+- **[CelebV-HQ](https://celebv-hq.github.io/)** (2022 ECCV) ✨ [[Link](https://github.com/CelebV-HQ/CelebV-HQ/)]<br>
 **CelebVHQ: A large-scale video facial attributes dataset**<br>
 _Hao Zhu, Wayne Wu, Wentao Zhu, Liming Jiang, Siwei Tang, Li Zhang, Ziwei Liu, and Chen Change Loy_<br>
 YouTube에서 수집된 비디오 데이터셋
 
 
-* **[VoxCeleb2](https://arxiv.org/abs/1806.05622)** (2018 INTERSPEECH) ✨ [[Link](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html)]<br>
+- **[VoxCeleb2](https://arxiv.org/abs/1806.05622)** (2018 INTERSPEECH) ✨ [[Link](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html)]<br>
 **Voxceleb2: Deep speaker recognition**<br>
 Joon Son Chung, Arsha Nagrani, Andrew Zisserman<br>
 YouTube에서 수집된 비디오 데이터셋
@@ -382,11 +337,17 @@ _Kaisiyuan Wang, Qianyi Wu, Linsen Song, Zhuoqian Yang, Wayne Wu, Chen Qian, Ran
 Speaker-dependent였던 기존 연구와는 다르게, 오디오가 주어졌을 때 speaker-independent인 facial animation을 생성함. Speech가 있는 4D face scans로 이루어진 VOCASET 데이터셋 구축.
 
 
-* **[CoMA](https://coma.is.tue.mpg.de/)** (2018 ECCV)<br>
+- **[CoMA](https://coma.is.tue.mpg.de/)** (2018 ECCV)<br>
 **Generating 3D faces using Convolutional Mesh Autoencoders**<br>
 _Anurag Ranjan, Timo Bolkart, Soubhik Sanyal, Michael J. Black_<br>
 
 
-* **[BIWI](https://ieeexplore.ieee.org/document/5571821)** (2010 TMM) [[Link](https://www.kaggle.com/datasets/kmader/biwi-kinect-head-pose-database/data)]<br>
+- **[BIWI](https://ieeexplore.ieee.org/document/5571821)** (2010 TMM) [[Link](https://www.kaggle.com/datasets/kmader/biwi-kinect-head-pose-database/data)]<br>
 **A 3-D Audio-Visual Corpus of Affective Communication**<br>
 *Gabriele Fanelli, Thibaut Weise, Juergen Gall, Luc Van Gool*<br>
+
+
+## Other Lists Related with Face
+
+- [czh-98/3D-face-reconstruction-paper-list](https://github.com/czh-98/3D-face-reconstruction-paper-list)
+- [polarisZhao/awesome-face](https://github.com/polarisZhao/awesome-face)
