@@ -1,4 +1,4 @@
-<h1 align="center">Awesome 3D Face Reconstruction (Kor.)</h1>
+<h1 align="center">Awesome 3D Face (Kor.)</h1>
 <p align="center"><a href="https://github.com/winterbloooom/awesome-3d-face-reconstruction"><img src="https://awesome.re/badge.svg"></a></p>
 
 <details>
