@@ -50,6 +50,7 @@
 **Speech4Mesh: Speech-Assisted Monocular 3D Facial Reconstruction for Speech-Driven 3D Facial Animation**<br>
 *Shan He, Haonan He, Shuo Yang, Xiaoyan Wu, Pengcheng Xia, Bing Yin, Cong Liu, LiRong Dai, Chang Xu*<br>
 
+
 - **[TokenFace](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Accurate_3D_Face_Reconstruction_with_Facial_Component_Tokens_ICCV_2023_paper.html)** (2023 ICCV)<br>
 **Accurate 3D Face Reconstruction with Facial Component Tokens**<br>
 *Tianke Zhang, Xuangeng Chu, Yunfei Liu, Lijian Lin, Zhendong Yang, Zhengzhuo Xu, Chengkun Cao, Fei Yu, Changyin Zhou, Chun Yuan, Yu Li*<br>
@@ -60,6 +61,11 @@ FLAME의 각 파라미터를 decoupling하고자, ViT에 이미지 토큰과 더
 **HiFace: High-Fidelity 3D Face Reconstruction by Learning Static and Dynamic Details**<br>
 *Zenghao Chai, Tianke Zhang, Tianyu He, Xu Tan, Tadas  Baltrušaitis, HsiangTao Wu, Runnan Li, Sheng Zhao, Chun Yuan, Jiang Bian*<br>
 Detail을 static detail과 dynamic detail로 나눔. Synthetic dataset을 사용하여 학습.
+
+
+- **[SPECTRE](https://filby89.github.io/spectre/)** (2023 CVPR) ✨ [[Code](https://github.com/filby89/spectre)]<br>
+**Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos**<br>
+*Panagiotis P. Filntisis, George Retsinas, Foivos Paraperas-Papantoniou, Athanasios Katsamanis, Anastasios Roussos, Petros Maragos*<br>
 
 
 - **[FOCUS](https://arxiv.org/abs/2106.09614)** (2023 CVPR) [[Code](https://github.com/unibas-gravis/Occlusion-Robust-MoFA)]<br>
@@ -268,11 +274,6 @@ _A.M. Martinez and R. Benavente_<br>
 - **[EmoTalk](https://ziqiaopeng.github.io/emotalk/)** (2023 ICCV) [[Code](https://github.com/psyai-net/EmoTalk_release)]<br>
 **EmoTalk: Speech-driven emotional disentanglement for 3D face animation**<br>
 *Ziqiao Peng, Haoyu Wu, Zhenbo Song, Hao Xu, Xiangyu Zhu, Jun He, Hongyan Liu, Zhaoxin Fan*<br>
-
-
-- **[SPECTRE](https://filby89.github.io/spectre/)** (2023 CVPR) ✨ [[Code](https://github.com/filby89/spectre)]<br>
-**Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos**<br>
-*Panagiotis P. Filntisis, George Retsinas, Foivos Paraperas-Papantoniou, Athanasios Katsamanis, Anastasios Roussos, Petros Maragos*<br>
 
 
 - **[CodeTalker](https://doubiiu.github.io/projects/codetalker/)** (2023 CVPR) [[Code](https://github.com/Doubiiu/CodeTalker)]<br>
