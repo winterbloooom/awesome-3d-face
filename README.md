@@ -46,6 +46,9 @@
 **Towards Realistic Generative 3D Face Models**<br>
 *Aashish Rai, Hiresh Gupta, Ayush Pandey, Francisco Vicente Carrasco, Shingo Jason Takagi, Amaury Aubel, Daeil Kim, Aayush Prakash, Fernando de la Torre*<br>
 
+- **[Speech4Mesh](https://openaccess.thecvf.com//content/ICCV2023/papers/He_Speech4Mesh_Speech-Assisted_Monocular_3D_Facial_Reconstruction_for_Speech-Driven_3D_Facial_ICCV_2023_paper.pdf)** (2023 ICCV)<br>
+**Speech4Mesh: Speech-Assisted Monocular 3D Facial Reconstruction for Speech-Driven 3D Facial Animation**<br>
+*Shan He, Haonan He, Shuo Yang, Xiaoyan Wu, Pengcheng Xia, Bing Yin, Cong Liu, LiRong Dai, Chang Xu*<br>
 
 - **[TokenFace](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Accurate_3D_Face_Reconstruction_with_Facial_Component_Tokens_ICCV_2023_paper.html)** (2023 ICCV)<br>
 **Accurate 3D Face Reconstruction with Facial Component Tokens**<br>
@@ -254,12 +257,12 @@ _Andrew D. Bagdanov, Alberto Del Bimbo, Iacopo Masi_<br>
 _A.M. Martinez and R. Benavente_<br>
 
 
-## Face Animation with Audio (Talking Head)
+## 3D Facial Animation
 ### 📑 Papers
 
-- **[Speech4Mesh](https://openaccess.thecvf.com//content/ICCV2023/papers/He_Speech4Mesh_Speech-Assisted_Monocular_3D_Facial_Reconstruction_for_Speech-Driven_3D_Facial_ICCV_2023_paper.pdf)** (2023 ICCV)<br>
-**Speech4Mesh: Speech-Assisted Monocular 3D Facial Reconstruction for Speech-Driven 3D Facial Animation**<br>
-*Shan He, Haonan He, Shuo Yang, Xiaoyan Wu, Pengcheng Xia, Bing Yin, Cong Liu, LiRong Dai, Chang Xu*<br>
+- **[EMOTE](https://arxiv.org/abs/2306.08990)** (SIGGRAPH Asia 2023) [[Code](https://github.com/radekd91/inferno/tree/release/EMOTE/inferno_apps/TalkingHead)]<br>
+**Emotional Speech-Driven Animation with Content-Emotion Disentanglement**<br>
+*Radek Daněček, Kiran Chhatre, Shashank Tripathi, Yandong Wen, Michael J. Black, Timo Bolkart*<br>
 
 
 - **[EmoTalk](https://ziqiaopeng.github.io/emotalk/)** (2023 ICCV) [[Code](https://github.com/psyai-net/EmoTalk_release)]<br>
@@ -342,7 +345,7 @@ Speaker-dependent였던 기존 연구와는 다르게, 오디오가 주어졌을
 _Anurag Ranjan, Timo Bolkart, Soubhik Sanyal, Michael J. Black_<br>
 
 
-- **[BIWI](https://ieeexplore.ieee.org/document/5571821)** (2010 TMM) [[Link](https://www.kaggle.com/datasets/kmader/biwi-kinect-head-pose-database/data)]<br>
+- **[BIWI](https://ieeexplore.ieee.org/document/5571821)** (2010 TMM) ✨ [[Link](https://www.kaggle.com/datasets/kmader/biwi-kinect-head-pose-database/data)]<br>
 **A 3-D Audio-Visual Corpus of Affective Communication**<br>
 *Gabriele Fanelli, Thibaut Weise, Juergen Gall, Luc Van Gool*<br>
 
@@ -351,3 +354,4 @@ _Anurag Ranjan, Timo Bolkart, Soubhik Sanyal, Michael J. Black_<br>
 
 - [czh-98/3D-face-reconstruction-paper-list](https://github.com/czh-98/3D-face-reconstruction-paper-list)
 - [polarisZhao/awesome-face](https://github.com/polarisZhao/awesome-face)
+- [YunjinPark/awesome_talking_face_generation](https://github.com/YunjinPark/awesome_talking_face_generation)
